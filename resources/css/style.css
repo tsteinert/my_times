@@ -30,3 +30,54 @@ nav span {
 a {
   color: black;
 }
+
+.content {
+    display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  color: white;
+  font-weight: bold;
+}
+
+.lead-story .image-content {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/img-story-1.png");
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
+}
