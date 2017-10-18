@@ -59,6 +59,8 @@ a {
   height: 300px;
   color: white;
   font-weight: bold;
+  font-family: Georgia;
+  font-size: 30px;
 }
 
 .lead-story .image-content {
@@ -80,4 +82,57 @@ a {
 
 .lead-story .image-content span {
   margin-left: 20px;
+}
+
+.text-content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+}
+
+.large .stories {
+  flex-direction: row;
+}
+
+.news-bytes h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 200px;
+}
+
+.footer-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 20px;
 }
